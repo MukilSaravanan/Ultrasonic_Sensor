@@ -1,7 +1,7 @@
 /* Ultrasonic_Sensor Example
 
-  1) Prints the distance between the sensor and the obstrucle in the serial monitor.
-  2) Prints the duration required for the Ultrasonic rays to bounce back from the obstrucle in the serail monitor.
+  1) Prints the distance between the sensor and the obstacle in the serial monitor.
+  2) Prints the duration required for the Ultrasonic rays to bounce back from the obstacle in the serial monitor.
   3) Lights up the LED for certain duration, when the distance is above the threshold value.
 
   The circuit:
@@ -69,7 +69,7 @@ void loop() {
   //Approximate Range of HC-SR04
   if (distance >= 200 || distance <= 0)
   {
-    Serial.println("OUT OF RANGE");
+    Serial.print("OUT OF RANGE");
   }
   else
   {
@@ -78,7 +78,7 @@ void loop() {
   }
 
   //Prints the bounce back time (in microseconds) in the serial monitor.
-  Serial.print("\t Duration: "); Serial.println(duration);
+  Serial.print("\t Duration: "); Serial.print(duration); Serial.println(" microseconds");
 
   //Uncomment the next line if you want to use different delay duration (default delay time is 5000 milliseconds)
   //uss.lightLED(thresh,delayTime);
