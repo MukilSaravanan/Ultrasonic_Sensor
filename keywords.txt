@@ -1,0 +1,4 @@
+Ultrasonic_Sensor	KEYWORD1
+getDuration	KEYWORD2
+findDistance	KEYWORD2
+lightLED	KEYWORD2	
