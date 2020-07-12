@@ -59,7 +59,7 @@ Arduino library for Ultrasonic Sensor (HC-SR04).
      - Clone this repo to your local machine using `https://github.com/MukilSaravanan/Ultrasonic_Sensor.git`
   ### Step 2
   * Create a new feature branch `git checkout -b feature`
-  * Commit your changes `git commit -am 'Add some updates`
+  * Commit your changes `git commit -am 'Add some updates'`
   * Push to the branch `git push origin feature`
   ### Step 3
   - Create a new pull request using https://github.com/MukilSaravanan/Ultrasonic_Sensor/compare/ <a name="contributing"/>
