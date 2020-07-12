@@ -1,3 +1,7 @@
+[![GitHub issues](https://img.shields.io/github/issues/MukilSaravanan/Ultrasonic_Sensor)](https://github.com/MukilSaravanan/Ultrasonic_Sensor/issues)
+[![GitHub forks](https://img.shields.io/github/forks/MukilSaravanan/Ultrasonic_Sensor)](https://github.com/MukilSaravanan/Ultrasonic_Sensor/network)
+[![GitHub stars](https://img.shields.io/github/stars/MukilSaravanan/Ultrasonic_Sensor)](https://github.com/MukilSaravanan/Ultrasonic_Sensor/stargazers)
+[![GitHub license](https://img.shields.io/github/license/MukilSaravanan/Ultrasonic_Sensor)](https://github.com/MukilSaravanan/Ultrasonic_Sensor/blob/master/LICENSE)
 # Ultrasonic_Sensor
 
 Arduino library for Ultrasonic Sensor (HC-SR04).
